@@ -16,12 +16,7 @@ class Index extends \Magento\Framework\App\Action\Action
 	 * @var CollectionFactory
 	 */
 	protected $_orderCollectionFactory;
-	/**
-	 * @var ScopeConfigInterface
-	 */
-    protected $_scopeConfig;
-    
-	/**
+    /**
 	 * @var UrlInterface
 	 */
     protected $_urlinterface;
@@ -31,13 +26,11 @@ class Index extends \Magento\Framework\App\Action\Action
         \Magento\Framework\View\Element\Template\Context $templateContext,
         \Magento\Checkout\Model\Cart $cart, 
         \Magento\Customer\Model\Session $customerSession, 
-        \Magento\Sales\Model\ResourceModel\Order\CollectionFactory $orderCollectionFactory,
-        \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig
+        \Magento\Sales\Model\ResourceModel\Order\CollectionFactory $orderCollectionFactory
     ){
         $this->_cart = $cart;
         $this->_customerSession = $customerSession;
         $this->_orderCollectionFactory = $orderCollectionFactory;
-        $this->_scopeConfig = $scopeConfig;
         $this->_urlinterface = $templateContext->getUrlBuilder();
         return parent::__construct($context);
     } 
@@ -107,7 +100,7 @@ class Index extends \Magento\Framework\App\Action\Action
      */
     public function showCustomParam($key)
     {
-        return (boolean) $this->_scopeConfig->getValue($key, \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
+        return (boolean) $this->_url->getValue($key, \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
     }
 
     /**
