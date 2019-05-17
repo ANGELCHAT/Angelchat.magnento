@@ -1,7 +1,7 @@
 <?php
-namespace LiveChat\LiveChat\Controller\GetCart;
+namespace Livechat\Livechat\Controller\GetCart;
 
-use \LiveChat\LiveChat\Helper\Data;
+use \Livechat\Livechat\Helper\Data;
 class Index extends \Magento\Framework\App\Action\Action
 {
 	/**

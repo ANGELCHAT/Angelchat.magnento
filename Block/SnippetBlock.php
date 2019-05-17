@@ -1,7 +1,7 @@
 <?php
-namespace LiveChat\LiveChat\Block;
+namespace Livechat\Livechat\Block;
 
-use \LiveChat\LiveChat\Helper\Data;
+use \Livechat\Livechat\Helper\Data;
 
 class SnippetBlock extends \Magento\Framework\View\Element\Template
 {

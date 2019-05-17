@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
 	<head>
-		<css src="LiveChat_LiveChat::styles.css"/>
-		<link src="LiveChat_LiveChat::script.js"/>
+		<css src="Livechat_Livechat::styles.css"/>
+		<link src="Livechat_Livechat::script.js"/>
 	</head>
 </page>

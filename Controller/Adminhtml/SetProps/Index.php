@@ -1,5 +1,5 @@
 <?php
-namespace LiveChat\LiveChat\Controller\Adminhtml\SetProps;
+namespace Livechat\Livechat\Controller\Adminhtml\SetProps;
 
 use Magento\Backend\App\Action\Context;
 

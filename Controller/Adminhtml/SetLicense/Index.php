@@ -1,5 +1,5 @@
 <?php
-namespace LiveChat\LiveChat\Controller\Adminhtml\SetLicense;
+namespace Livechat\Livechat\Controller\Adminhtml\SetLicense;
 
 use Magento\Backend\App\Action\Context;
 

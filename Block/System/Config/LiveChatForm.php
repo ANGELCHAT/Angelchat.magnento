@@ -1,9 +1,9 @@
 <?php
-namespace LiveChat\LiveChat\Block\System\Config;
+namespace Livechat\Livechat\Block\System\Config;
 
-use \LiveChat\LiveChat\Helper\Data;
+use \Livechat\Livechat\Helper\Data;
 
-class LiveChatForm extends \Magento\Framework\View\Element\Template
+class LivechatForm extends \Magento\Framework\View\Element\Template
 {
 	/**
 	 * Path to block template

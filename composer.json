@@ -21,7 +21,7 @@
 			"registration.php"
 		],
 		"psr-4": {
-			"LiveChat\\LiveChat\\": ""
+			"Livechat\\Livechat\\": ""
 		}
 	}
 }

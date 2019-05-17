@@ -1,5 +1,5 @@
 <?php
-namespace LiveChat\LiveChat\Controller\GetVisitor;
+namespace Livechat\Livechat\Controller\GetVisitor;
 
 class Index extends \Magento\Framework\App\Action\Action
 {

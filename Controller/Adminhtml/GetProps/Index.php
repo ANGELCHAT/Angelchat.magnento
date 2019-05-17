@@ -1,7 +1,7 @@
 <?php
-namespace LiveChat\LiveChat\Controller\Adminhtml\GetProps;
+namespace Livechat\Livechat\Controller\Adminhtml\GetProps;
 
-use \LiveChat\LiveChat\Helper\Data;
+use \Livechat\Livechat\Helper\Data;
 use Magento\Backend\App\Action\Context;
 
 class Index extends \Magento\Backend\App\Action

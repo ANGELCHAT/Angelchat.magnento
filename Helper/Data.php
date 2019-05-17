@@ -1,6 +1,6 @@
 <?php
 
-namespace LiveChat\LiveChat\Helper;
+namespace Livechat\Livechat\Helper;
 
 use \Magento\Framework\App\Helper\Context;
 
