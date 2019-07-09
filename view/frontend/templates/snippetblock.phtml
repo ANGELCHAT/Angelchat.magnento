@@ -4,7 +4,7 @@
   window.__lc = window.__lc || {};
   window.__lc.license = <?php echo $block->getLicenseId() ?>;
 
-  if(livechat_visitor_data) {
+  if(typeof livechat_visitor_data !== 'undefined') {
     window.__lc.visitor = livechat_visitor_data;
   }
 
