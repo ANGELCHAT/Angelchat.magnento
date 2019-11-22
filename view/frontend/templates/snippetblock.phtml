@@ -1,12 +1,7 @@
 <?php if (null !== $block->getLicenseId()): ?>
-<script src = "<?php echo $block->getUrl('livechat/getvisitor'); ?>"></script>
 <script>
   window.__lc = window.__lc || {};
   window.__lc.license = <?php echo $block->getLicenseId() ?>;
-
-  if(livechat_visitor_data) {
-    window.__lc.visitor = livechat_visitor_data;
-  }
 
   (function() {
     var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
